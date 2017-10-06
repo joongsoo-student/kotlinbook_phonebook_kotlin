@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/form_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_man"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/insert_photo_comment"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/form_action_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/form_action_call"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_call"/>
+
+        <Button
+            android:id="@+id/form_action_sms"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_sms"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <EditText
+            android:id="@+id/form_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/insert_name_hint"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/form_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/insert_phone_hint"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/form_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/insert_email_hint"
+            android:layout_marginBottom="20dp"/>ㅇ
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <Button
+            android:id="@+id/form_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_save"/>
+
+        <Button
+            android:id="@+id/form_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_delete"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

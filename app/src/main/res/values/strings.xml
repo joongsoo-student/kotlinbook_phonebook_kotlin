@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kotlin 전화번호부</string>
+
+    <string name="btn_save">저장</string>
+    <string name="btn_delete">삭제</string>
+
+    <string name="main_search_hint">이름으로 검색하세요</string>
+
+    <string name="insert_photo_comment">클릭해서 사진을 변경하세요</string>
+    <string name="insert_name_hint">이름을 입력하세요.</string>
+    <string name="insert_phone_hint">휴대폰을 입력하세요.</string>
+    <string name="insert_email_hint">이메일을 입력하세요.</string>
+</resources>
